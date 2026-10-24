@@ -1,0 +1,10 @@
+lab2_O3g;_start;__libc_start_main;[libc.so.6];[libc.so.6] 1003009
+lab2_O3g;_start;__libc_start_main;[libc.so.6];main;[libm.so.6] 2006018
+lab2_O3g;_start;__libc_start_main;[libc.so.6];main;inverse 421263780
+lab2_O3g;_start;__libc_start_main;[libc.so.6];main;jacobi 2563691004
+lab2_O3g;_start;__libc_start_main;[libc.so.6];main;makeSystem 30090270
+lab2_O3g;_start;__libc_start_main;[libc.so.6];main;makeSystem;[libm.so.6] 82246738
+lab2_O3g;_start;__libc_start_main;[libc.so.6];main;makeSystem;std::vector<double, std::allocator<double> >::_M_fill_assign 12036108
+lab2_O3g;_start;__libc_start_main;[libc.so.6];main;normMat 1003009
+lab2_O3g;_start;__libc_start_main;[libc.so.6];main;residual 20060180
+lab2_O3g;_start;__libc_start_main;[libc.so.6];main;sin@plt 2006018

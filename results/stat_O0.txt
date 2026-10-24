@@ -1,0 +1,24 @@
+# started on Sat Oct 24 19:08:35 2026
+
+
+ Performance counter stats for './lab2_O0g 4000 800':
+
+          11986.41 msec task-clock:u                     #    0.995 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+             35204      page-faults:u                    #    2.937 K/sec                     
+   <not supported>      cycles:u                                                              
+   <not supported>      instructions:u                                                        
+   <not supported>      branches:u                                                            
+   <not supported>      branch-misses:u                                                       
+   <not supported>      L1-dcache-loads:u                                                     
+   <not supported>      L1-dcache-load-misses:u                                               
+   <not supported>      LLC-loads:u                                                           
+   <not supported>      LLC-load-misses:u                                                     
+
+      12.048028844 seconds time elapsed
+
+      11.945024000 seconds user
+       0.042045000 seconds sys
+
+

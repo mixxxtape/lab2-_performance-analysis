@@ -1,0 +1,60 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 10K of event 'cpu-clock:u'
+# Event count (approx.): 10334001727
+#
+# Overhead  Command  Shared Object     Symbol                                                                                                                                                                          
+# ........  .......  ................  ................................................................................................................................................................................
+#
+    65.29%  lab2_O0  lab2_O0           [.] jacobi(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, int, double, std::vector<double, std::allocator<double> >&)
+    21.67%  lab2_O0  lab2_O0           [.] std::vector<double, std::allocator<double> >::operator[](unsigned long)
+    10.60%  lab2_O0  lab2_O0           [.] inverse(std::vector<double, std::allocator<double> >, int, std::vector<double, std::allocator<double> >&)
+     0.47%  lab2_O0  lab2_O0           [.] residual(std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, std::vector<double, std::allocator<double> > const&, int)
+     0.45%  lab2_O0  lab2_O0           [.] makeSystem(int, std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)
+     0.42%  lab2_O0  lab2_O0           [.] std::vector<double, std::allocator<double> >::operator[](unsigned long) const
+     0.28%  lab2_O0  lab2_O0           [.] __gnu_cxx::__enable_if<std::__is_scalar<double>::__value, void>::__type std::__fill_a1<double*, double>(double*, double*, double const&)
+     0.08%  lab2_O0  libm.so.6         [.] 0x000000000007b350
+     0.07%  lab2_O0  libm.so.6         [.] 0x000000000007b460
+     0.06%  lab2_O0  lab2_O0           [.] sin@plt
+     0.05%  lab2_O0  libm.so.6         [.] 0x000000000007b2dd
+     0.04%  lab2_O0  libm.so.6         [.] 0x000000000007b4df
+     0.04%  lab2_O0  libm.so.6         [.] 0x000000000007b831
+     0.03%  lab2_O0  libm.so.6         [.] 0x000000000007b482
+     0.03%  lab2_O0  libm.so.6         [.] 0x000000000007b7ba
+     0.02%  lab2_O0  lab2_O0           [.] double const& std::max<double>(double const&, double const&)
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b2f1
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b2f9
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b34f
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b4b6
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b50f
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b590
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b599
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b5b4
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b5ba
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b5c2
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b5ca
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b5db
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b613
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b7d7
+     0.02%  lab2_O0  libm.so.6         [.] 0x000000000007b827
+     0.01%  lab2_O0  lab2_O0           [.] normMat(std::vector<double, std::allocator<double> > const&, int)
+     0.01%  lab2_O0  libm.so.6         [.] 0x000000000007b30a
+     0.01%  lab2_O0  libm.so.6         [.] 0x000000000007b3e8
+     0.01%  lab2_O0  libm.so.6         [.] 0x000000000007b41a
+     0.01%  lab2_O0  libm.so.6         [.] 0x000000000007b49c
+     0.01%  lab2_O0  libm.so.6         [.] 0x000000000007b53c
+     0.01%  lab2_O0  libm.so.6         [.] 0x000000000007b540
+     0.01%  lab2_O0  libm.so.6         [.] 0x000000000007b5c6
+     0.01%  lab2_O0  libm.so.6         [.] 0x000000000007b6a2
+     0.01%  lab2_O0  libm.so.6         [.] 0x000000000007b6b5
+     0.01%  lab2_O0  libm.so.6         [.] 0x000000000007b795
+     0.01%  lab2_O0  libm.so.6         [.] 0x000000000007b80c
+     0.01%  lab2_O0  libm.so.6         [.] 0x000000000007b82d
+
+
+#
+# (Tip: Order by the overhead of source file name and line number: perf report -s srcline)
+#

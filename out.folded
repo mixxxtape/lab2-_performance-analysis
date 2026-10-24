@@ -1,0 +1,16 @@
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;[libm.so.6] 2006018
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;inverse 1095285828
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;inverse;std::vector<double, std::allocator<double> >::assign;std::vector<double, std::allocator<double> >::_M_fill_assign;std::vector<double, std::allocator<double> >::vector;std::vector<double, std::allocator<double> >::_M_fill_initialize;double* std::__uninitialized_fill_n_a<double*, unsigned long, double, double>;double* std::uninitialized_fill_n<double*, unsigned long, double>;double* std::__uninitialized_fill_n<true>::__uninit_fill_n<double*, unsigned long, double>;double* std::fill_n<double*, unsigned long, double>;double* std::__fill_n_a<double*, unsigned long, double>;void std::__fill_a<double*, double>;__gnu_cxx::__enable_if<std::__is_scalar<double>::__value, void>::__type std::__fill_a1<double*, double> 1003009
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;inverse;std::vector<double, std::allocator<double> >::operator[] 2006018
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;jacobi 6747241543
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;jacobi;double const& std::max<double> 2006018
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;jacobi;std::vector<double, std::allocator<double> >::operator[] 1073219630
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;makeSystem 46138414
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;makeSystem;[libm.so.6] 74222666
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;makeSystem;std::vector<double, std::allocator<double> >::assign;std::vector<double, std::allocator<double> >::_M_fill_assign;std::vector<double, std::allocator<double> >::vector;std::vector<double, std::allocator<double> >::_M_fill_initialize;double* std::__uninitialized_fill_n_a<double*, unsigned long, double, double>;double* std::uninitialized_fill_n<double*, unsigned long, double>;double* std::__uninitialized_fill_n<true>::__uninit_fill_n<double*, unsigned long, double>;double* std::fill_n<double*, unsigned long, double>;double* std::__fill_n_a<double*, unsigned long, double>;void std::__fill_a<double*, double>;__gnu_cxx::__enable_if<std::__is_scalar<double>::__value, void>::__type std::__fill_a1<double*, double> 28084252
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;makeSystem;std::vector<double, std::allocator<double> >::operator[] 5015045
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;normMat 1003009
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;residual 48144432
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;residual;std::vector<double, std::allocator<double> >::operator[] 14042126
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;sin@plt 6018054
+lab2_O0;_start;__libc_start_main;[libc.so.6];main;std::vector<double, std::allocator<double> >::operator[] 1188565665

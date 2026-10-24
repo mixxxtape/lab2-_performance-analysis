@@ -1,0 +1,16 @@
+# started on Sat Oct 24 16:11:52 2026
+
+
+ Performance counter stats for './lab2_O0 4000 800':
+
+          10353.67 msec task-clock:u                     #    1.002 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+             35204      page-faults:u                    #    3.400 K/sec                     
+
+      10.331725498 seconds time elapsed
+
+      10.286398000 seconds user
+       0.068148000 seconds sys
+
+
